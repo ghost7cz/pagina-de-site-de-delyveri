@@ -1,0 +1,331 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.inicio {
+    display: flex;
+}
+
+.celulares img {
+    width: 100%;
+}
+
+.vermelho {
+    color: #aa042c;
+}
+
+.verde {
+    color: green;
+}
+
+#logo_transparente {
+    position: absolute;
+    right: 12px;
+    top: 8px;
+}
+
+.textoP {
+    color: white;
+    margin-top: 40px;
+}
+
+.hamburger_flex {
+    background: url(img/hamburguer.png) no-repeat center rebeccapurple;
+    margin-top: 18px;
+}
+
+.cor_de_pagina {
+    display: flex;
+    background: url(img/imagen\ de\ fundo.png) no-repeat;
+    flex-direction: column;
+    color: white;
+    height: 100%;
+    justify-content: flex-start;
+    padding: 40px;
+    background-size: 105% 100%;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 40px 20px 40px 0px;
+    margin-top: 30px;
+}
+
+.div_flex {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 30px;
+    padding: 60px 0px 80px 0px;
+}
+
+.paes {
+    background: url() no-repeat gold;
+    padding: 40px;
+}
+
+.restaurante {
+    background: url() no-repeat rgb(98, 89, 219);
+    padding: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0% 3% 0%;
+    width: 100%;
+    background-color: #f0efe9;
+}
+
+.cardapios {
+    background-color: white;
+    display: flex;
+    width: 50%;
+}
+
+.lanches {
+    background-color: white;
+    display: flex;
+    width: 50%;
+    margin-top: 3%;
+}
+
+.lojas {
+    background-color: white;
+    display: flex;
+    width: 50%;
+    margin-top: 3%;
+}
+
+.texto1 {
+    margin-top: 6%;
+}
+
+.texto2 {
+    margin-top: 15%;
+}
+
+.texto3 {
+    margin-top: 8%;
+}
+
+.site {
+    margin-top: 3%;
+    margin-left: 50%;
+    background-color: #f0efe9;
+}
+
+.textoC {
+    margin-top: 10px;
+}
+
+.flexC {
+    display: flex;
+}
+
+.navgation {
+    background-color: #f0efe9;
+    padding: auto;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Cidades {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    min-height: 154px;
+    border-radius: 4px;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: auto 90%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.Sobre {
+    width: 100%;
+    height: 100%;
+    min-height: 154px;
+    border-radius: 4px;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: auto 90%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.Navegue {
+    width: 100%;
+    height: 100%;
+    min-height: 154px;
+    border-radius: 4px;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: auto 90%;
+    margin-top: 40px;
+    text-align: center;
+}
